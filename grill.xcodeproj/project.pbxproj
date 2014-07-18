@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517413A01978AC52004ABD77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5174139F1978AC52004ABD77 /* Foundation.framework */; };
+		517413A21978AC52004ABD77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517413A11978AC52004ABD77 /* CoreGraphics.framework */; };
+		517413A41978AC52004ABD77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517413A31978AC52004ABD77 /* UIKit.framework */; };
+		517413AA1978AC52004ABD77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 517413A81978AC52004ABD77 /* InfoPlist.strings */; };
+		517413AC1978AC52004ABD77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413AB1978AC52004ABD77 /* main.m */; };
+		517413B01978AC52004ABD77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413AF1978AC52004ABD77 /* AppDelegate.m */; };
+		517413B31978AC52004ABD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517413B11978AC52004ABD77 /* Main.storyboard */; };
+		517413B61978AC52004ABD77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413B51978AC52004ABD77 /* ViewController.m */; };
+		517413B81978AC52004ABD77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517413B71978AC52004ABD77 /* Images.xcassets */; };
+		517413BF1978AC52004ABD77 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517413BE1978AC52004ABD77 /* XCTest.framework */; };
+		517413C01978AC52004ABD77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5174139F1978AC52004ABD77 /* Foundation.framework */; };
+		517413C11978AC52004ABD77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517413A31978AC52004ABD77 /* UIKit.framework */; };
+		517413C91978AC52004ABD77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 517413C71978AC52004ABD77 /* InfoPlist.strings */; };
+		517413CB1978AC52004ABD77 /* grillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413CA1978AC52004ABD77 /* grillTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		517413C21978AC52004ABD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517413941978AC51004ABD77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5174139B1978AC51004ABD77;
+			remoteInfo = grill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5174139C1978AC52004ABD77 /* grill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5174139F1978AC52004ABD77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		517413A11978AC52004ABD77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		517413A31978AC52004ABD77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		517413A71978AC52004ABD77 /* grill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "grill-Info.plist"; sourceTree = "<group>"; };
+		517413A91978AC52004ABD77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		517413AB1978AC52004ABD77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		517413AD1978AC52004ABD77 /* grill-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "grill-Prefix.pch"; sourceTree = "<group>"; };
+		517413AE1978AC52004ABD77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		517413AF1978AC52004ABD77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		517413B21978AC52004ABD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		517413B41978AC52004ABD77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		517413B51978AC52004ABD77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		517413B71978AC52004ABD77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		517413BD1978AC52004ABD77 /* grillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		517413BE1978AC52004ABD77 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		517413C61978AC52004ABD77 /* grillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "grillTests-Info.plist"; sourceTree = "<group>"; };
+		517413C81978AC52004ABD77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		517413CA1978AC52004ABD77 /* grillTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grillTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517413991978AC51004ABD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517413A21978AC52004ABD77 /* CoreGraphics.framework in Frameworks */,
+				517413A41978AC52004ABD77 /* UIKit.framework in Frameworks */,
+				517413A01978AC52004ABD77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517413BA1978AC52004ABD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517413BF1978AC52004ABD77 /* XCTest.framework in Frameworks */,
+				517413C11978AC52004ABD77 /* UIKit.framework in Frameworks */,
+				517413C01978AC52004ABD77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517413931978AC51004ABD77 = {
+			isa = PBXGroup;
+			children = (
+				517413A51978AC52004ABD77 /* grill */,
+				517413C41978AC52004ABD77 /* grillTests */,
+				5174139E1978AC52004ABD77 /* Frameworks */,
+				5174139D1978AC52004ABD77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5174139D1978AC52004ABD77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5174139C1978AC52004ABD77 /* grill.app */,
+				517413BD1978AC52004ABD77 /* grillTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5174139E1978AC52004ABD77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5174139F1978AC52004ABD77 /* Foundation.framework */,
+				517413A11978AC52004ABD77 /* CoreGraphics.framework */,
+				517413A31978AC52004ABD77 /* UIKit.framework */,
+				517413BE1978AC52004ABD77 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		517413A51978AC52004ABD77 /* grill */ = {
+			isa = PBXGroup;
+			children = (
+				517413AE1978AC52004ABD77 /* AppDelegate.h */,
+				517413AF1978AC52004ABD77 /* AppDelegate.m */,
+				517413B11978AC52004ABD77 /* Main.storyboard */,
+				517413B41978AC52004ABD77 /* ViewController.h */,
+				517413B51978AC52004ABD77 /* ViewController.m */,
+				517413B71978AC52004ABD77 /* Images.xcassets */,
+				517413A61978AC52004ABD77 /* Supporting Files */,
+			);
+			path = grill;
+			sourceTree = "<group>";
+		};
+		517413A61978AC52004ABD77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517413A71978AC52004ABD77 /* grill-Info.plist */,
+				517413A81978AC52004ABD77 /* InfoPlist.strings */,
+				517413AB1978AC52004ABD77 /* main.m */,
+				517413AD1978AC52004ABD77 /* grill-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517413C41978AC52004ABD77 /* grillTests */ = {
+			isa = PBXGroup;
+			children = (
+				517413CA1978AC52004ABD77 /* grillTests.m */,
+				517413C51978AC52004ABD77 /* Supporting Files */,
+			);
+			path = grillTests;
+			sourceTree = "<group>";
+		};
+		517413C51978AC52004ABD77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517413C61978AC52004ABD77 /* grillTests-Info.plist */,
+				517413C71978AC52004ABD77 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5174139B1978AC51004ABD77 /* grill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517413CE1978AC52004ABD77 /* Build configuration list for PBXNativeTarget "grill" */;
+			buildPhases = (
+				517413981978AC51004ABD77 /* Sources */,
+				517413991978AC51004ABD77 /* Frameworks */,
+				5174139A1978AC51004ABD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grill;
+			productName = grill;
+			productReference = 5174139C1978AC52004ABD77 /* grill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		517413BC1978AC52004ABD77 /* grillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517413D11978AC52004ABD77 /* Build configuration list for PBXNativeTarget "grillTests" */;
+			buildPhases = (
+				517413B91978AC52004ABD77 /* Sources */,
+				517413BA1978AC52004ABD77 /* Frameworks */,
+				517413BB1978AC52004ABD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517413C31978AC52004ABD77 /* PBXTargetDependency */,
+			);
+			name = grillTests;
+			productName = grillTests;
+			productReference = 517413BD1978AC52004ABD77 /* grillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517413941978AC51004ABD77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "pigmal, LLC";
+				TargetAttributes = {
+					517413BC1978AC52004ABD77 = {
+						TestTargetID = 5174139B1978AC51004ABD77;
+					};
+				};
+			};
+			buildConfigurationList = 517413971978AC51004ABD77 /* Build configuration list for PBXProject "grill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517413931978AC51004ABD77;
+			productRefGroup = 5174139D1978AC52004ABD77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5174139B1978AC51004ABD77 /* grill */,
+				517413BC1978AC52004ABD77 /* grillTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5174139A1978AC51004ABD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517413B81978AC52004ABD77 /* Images.xcassets in Resources */,
+				517413AA1978AC52004ABD77 /* InfoPlist.strings in Resources */,
+				517413B31978AC52004ABD77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517413BB1978AC52004ABD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517413C91978AC52004ABD77 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517413981978AC51004ABD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517413B61978AC52004ABD77 /* ViewController.m in Sources */,
+				517413B01978AC52004ABD77 /* AppDelegate.m in Sources */,
+				517413AC1978AC52004ABD77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517413B91978AC52004ABD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517413CB1978AC52004ABD77 /* grillTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		517413C31978AC52004ABD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5174139B1978AC51004ABD77 /* grill */;
+			targetProxy = 517413C21978AC52004ABD77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		517413A81978AC52004ABD77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517413A91978AC52004ABD77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		517413B11978AC52004ABD77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517413B21978AC52004ABD77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		517413C71978AC52004ABD77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517413C81978AC52004ABD77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517413CC1978AC52004ABD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		517413CD1978AC52004ABD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517413CF1978AC52004ABD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grill/grill-Prefix.pch";
+				INFOPLIST_FILE = "grill/grill-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		517413D01978AC52004ABD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grill/grill-Prefix.pch";
+				INFOPLIST_FILE = "grill/grill-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		517413D21978AC52004ABD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/grill.app/grill";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grill/grill-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "grillTests/grillTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		517413D31978AC52004ABD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/grill.app/grill";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "grill/grill-Prefix.pch";
+				INFOPLIST_FILE = "grillTests/grillTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517413971978AC51004ABD77 /* Build configuration list for PBXProject "grill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517413CC1978AC52004ABD77 /* Debug */,
+				517413CD1978AC52004ABD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517413CE1978AC52004ABD77 /* Build configuration list for PBXNativeTarget "grill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517413CF1978AC52004ABD77 /* Debug */,
+				517413D01978AC52004ABD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		517413D11978AC52004ABD77 /* Build configuration list for PBXNativeTarget "grillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517413D21978AC52004ABD77 /* Debug */,
+				517413D31978AC52004ABD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517413941978AC51004ABD77 /* Project object */;
+}
