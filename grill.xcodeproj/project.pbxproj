@@ -21,6 +21,11 @@
 		517413C11978AC52004ABD77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517413A31978AC52004ABD77 /* UIKit.framework */; };
 		517413C91978AC52004ABD77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 517413C71978AC52004ABD77 /* InfoPlist.strings */; };
 		517413CB1978AC52004ABD77 /* grillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413CA1978AC52004ABD77 /* grillTests.m */; };
+		517413D51978AC71004ABD77 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517413D41978AC71004ABD77 /* CoreBluetooth.framework */; };
+		517413E01978ACAD004ABD77 /* Konashi+ACDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413D81978ACAD004ABD77 /* Konashi+ACDrive.m */; };
+		517413E11978ACAD004ABD77 /* Konashi+ADC.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413DA1978ACAD004ABD77 /* Konashi+ADC.m */; };
+		517413E21978ACAD004ABD77 /* Konashi+Grove.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413DC1978ACAD004ABD77 /* Konashi+Grove.m */; };
+		517413E31978ACAD004ABD77 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 517413DE1978ACAD004ABD77 /* Konashi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		517413C61978AC52004ABD77 /* grillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "grillTests-Info.plist"; sourceTree = "<group>"; };
 		517413C81978AC52004ABD77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		517413CA1978AC52004ABD77 /* grillTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grillTests.m; sourceTree = "<group>"; };
+		517413D41978AC71004ABD77 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		517413D71978ACAD004ABD77 /* Konashi+ACDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+ACDrive.h"; sourceTree = "<group>"; };
+		517413D81978ACAD004ABD77 /* Konashi+ACDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+ACDrive.m"; sourceTree = "<group>"; };
+		517413D91978ACAD004ABD77 /* Konashi+ADC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+ADC.h"; sourceTree = "<group>"; };
+		517413DA1978ACAD004ABD77 /* Konashi+ADC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+ADC.m"; sourceTree = "<group>"; };
+		517413DB1978ACAD004ABD77 /* Konashi+Grove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+Grove.h"; sourceTree = "<group>"; };
+		517413DC1978ACAD004ABD77 /* Konashi+Grove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+Grove.m"; sourceTree = "<group>"; };
+		517413DD1978ACAD004ABD77 /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi.h; sourceTree = "<group>"; };
+		517413DE1978ACAD004ABD77 /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
+		517413DF1978ACAD004ABD77 /* KonashiDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiDb.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517413D51978AC71004ABD77 /* CoreBluetooth.framework in Frameworks */,
 				517413A21978AC52004ABD77 /* CoreGraphics.framework in Frameworks */,
 				517413A41978AC52004ABD77 /* UIKit.framework in Frameworks */,
 				517413A01978AC52004ABD77 /* Foundation.framework in Frameworks */,
@@ -82,6 +98,7 @@
 		517413931978AC51004ABD77 = {
 			isa = PBXGroup;
 			children = (
+				517413D61978ACAD004ABD77 /* Konashi */,
 				517413A51978AC52004ABD77 /* grill */,
 				517413C41978AC52004ABD77 /* grillTests */,
 				5174139E1978AC52004ABD77 /* Frameworks */,
@@ -101,6 +118,7 @@
 		5174139E1978AC52004ABD77 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				517413D41978AC71004ABD77 /* CoreBluetooth.framework */,
 				5174139F1978AC52004ABD77 /* Foundation.framework */,
 				517413A11978AC52004ABD77 /* CoreGraphics.framework */,
 				517413A31978AC52004ABD77 /* UIKit.framework */,
@@ -150,6 +168,22 @@
 				517413C71978AC52004ABD77 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517413D61978ACAD004ABD77 /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				517413D71978ACAD004ABD77 /* Konashi+ACDrive.h */,
+				517413D81978ACAD004ABD77 /* Konashi+ACDrive.m */,
+				517413D91978ACAD004ABD77 /* Konashi+ADC.h */,
+				517413DA1978ACAD004ABD77 /* Konashi+ADC.m */,
+				517413DB1978ACAD004ABD77 /* Konashi+Grove.h */,
+				517413DC1978ACAD004ABD77 /* Konashi+Grove.m */,
+				517413DD1978ACAD004ABD77 /* Konashi.h */,
+				517413DE1978ACAD004ABD77 /* Konashi.m */,
+				517413DF1978ACAD004ABD77 /* KonashiDb.h */,
+			);
+			path = Konashi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +285,10 @@
 			files = (
 				517413B61978AC52004ABD77 /* ViewController.m in Sources */,
 				517413B01978AC52004ABD77 /* AppDelegate.m in Sources */,
+				517413E11978ACAD004ABD77 /* Konashi+ADC.m in Sources */,
+				517413E31978ACAD004ABD77 /* Konashi.m in Sources */,
+				517413E21978ACAD004ABD77 /* Konashi+Grove.m in Sources */,
+				517413E01978ACAD004ABD77 /* Konashi+ACDrive.m in Sources */,
 				517413AC1978AC52004ABD77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,7 +417,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grill/grill-Prefix.pch";
 				INFOPLIST_FILE = "grill/grill-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +432,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grill/grill-Prefix.pch";
 				INFOPLIST_FILE = "grill/grill-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +498,7 @@
 				517413D01978AC52004ABD77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		517413D11978AC52004ABD77 /* Build configuration list for PBXNativeTarget "grillTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +507,7 @@
 				517413D31978AC52004ABD77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
